@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UISegmentedControl *colorChoice;
+@property (weak, nonatomic) IBOutlet UILabel *chosenColor;
+@property (weak, nonatomic) IBOutlet UIWebView *flowerView;
 
 @end
 
